@@ -10,9 +10,11 @@ This is a stand-alone _LM Bridge_ release for existing MusicBrainz mirror instal
 
 **LM Bridge Features**
 
-- Direct API access to local MusicBrainz mirror server from Lidarr
-- Caching database for Lidarr queries
+- Helps to make Lidarr feel less like _hot garbage_
+- Direct access to local MusicBrainz mirror server for all queries
+- Caching database
 - Media Format filtering - remove vinyl or other issues from all releases
+- Extendable hook mechanism allows others to add functionality
 
 > [!IMPORTANT]
 >
@@ -55,8 +57,8 @@ docker compose up -d
 
 ## Version
 
-Deploy version: `1.5.0.00`
-Deploy version: `1.5.0.00`
+Deploy version: `1.6.0.00`
+Deploy version: `1.6.0.00`
 
 Optional cache settings (in `.env`):
 
