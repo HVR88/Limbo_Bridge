@@ -67,9 +67,7 @@ Visit **http://HOST_IP:5001** to check the status of Limbo, including version an
 ## Files:
 
 - `docker-compose.yml` (default: init + external network)
-- `compose/limbo-hosted-services.yml` (standalone single-container)
-- `compose/limbo-docker-network.yml` (full compose with init container + external network)
-- `.env.example` (copy to `.env` if needed, and edit)
+- `example.env` (copy to `.env` if needed, and edit)
   <br>
   <br>
 
@@ -80,4 +78,4 @@ Source code, docs and licenses: https://github.com/HVR88/Limbo-DEV
 
 ## Version
 
-Deploy version: `1.9.9.53`
+Deploy version: `1.9.10.00`
